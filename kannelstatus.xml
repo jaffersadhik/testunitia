@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<gateway>
+<version>Kannel bearerbox version `svn-r5159'.
+Build `Feb  9 2016 19:57:13', compiler `4.9.2'.
+System Linux, release 3.10.0-1127.13.1.el7.x86_64, version #1 SMP Tue Jun 23 15:46:38 UTC 2020, machine x86_64.
+Hostname 51b0ee685819, IP 172.21.0.12.
+Libxml version 2.9.1.
+Using OpenSSL 1.0.1k 8 Jan 2015.
+Compiled with MySQL 5.5.47, using MySQL 5.5.47.
+Using native malloc.
+</version>
+<status>running, uptime 0d 0h 0m 35s</status>
+        <wdp>
+                <received><total>0</total><queued>0</queued></received>
+                <sent><total>0</total><queued>0</queued></sent>
+        </wdp>
+        <sms>
+                <received><total>0</total><queued>0</queued></received>
+                <sent><total>0</total><queued>0</queued></sent>
+                <storesize>0</storesize>
+                <inbound>0.00,0.00,0.00</inbound>
+                <outbound>0.00,0.00,0.00</outbound>
+                </sms>
+        <dlr>
+                <received><total>0</total></received>
+                <sent><total>0</total></sent>
+                <inbound>0.00,0.00,0.00</inbound>
+                <outbound>0.00,0.00,0.00</outbound>
+                <queued>1</queued>
+                <storage>mysql</storage>
+        </dlr>
+<boxes>
+        <box>
+                <type>smsbox</type>
+                <id></id>
+                <IP>127.0.0.1</IP>
+                <queue>0</queue>
+                <status>on-line 0d 0h 0m 34s</status>
+                <ssl>no</ssl>
+        </box></boxes>
+<smscs><count>2</count>
+        <smsc>
+                <name>SMPP:13.234.186.32:2775/2775:unitia:</name>
+                <admin-id>unitia</admin-id>
+                <id>unitia</id>
+                <status>online 14s</status>
+                <failed>0</failed>
+                <queued>0</queued>
+                <sms>
+                        <received>0</received>
+                        <sent>0</sent>
+                        <inbound>0.00,0.00,0.00</inbound>
+                        <outbound>0.00,0.00,0.00</outbound>
+                </sms>
+                <dlr>
+                        <received>0</received>
+                        <sent>0</sent>
+                        <inbound>0.00,0.00,0.00</inbound>
+                        <outbound>0.00,0.00,0.00</outbound>
+                </dlr>
+        </smsc>
+<smsc>
+                <name>SMPP:13.234.186.32:2775/2775:unitia:</name>
+                <admin-id>unitia</admin-id>
+                <id>unitia</id>
+                <status>online 14s</status>
+                <failed>0</failed>
+                <queued>0</queued>
+                <sms>
+                        <received>0</received>
+                        <sent>0</sent>
+                        <inbound>0.00,0.00,0.00</inbound>
+                        <outbound>0.00,0.00,0.00</outbound>
+                </sms>
+                <dlr>
+                        <received>0</received>
+                        <sent>0</sent>
+                        <inbound>0.00,0.00,0.00</inbound>
+                        <outbound>0.00,0.00,0.00</outbound>
+                </dlr>
+        </smsc>
+</smscs>
+</gateway>
